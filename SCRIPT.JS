@@ -1,4 +1,4 @@
-//document.body.style.backgroundImage = "url('./img/clear.jpg')";
+// DOM Elements
 let cityName = document.getElementById('cityName');
 let weatherDesc = document.getElementById('weatherDesc');
 let temp = document.getElementById('tempData');
@@ -12,21 +12,20 @@ let table = document.getElementById('forecast');
 let day1Date = document.getElementById('day1Date');
 let day2Date = document.getElementById('day2Date');
 let day3Date = document.getElementById('day3Date');
-//let day4Date = document.getElementById('day4Date');
-//let day5Date = document.getElementById('day5Date');
 
 let day1Icon = document.getElementById('day1Icon');
 let day2Icon = document.getElementById('day2Icon');
 let day3Icon = document.getElementById('day3Icon');
-//let day4Icon = document.getElementById('day4Icon');
-//let day5Icon = document.getElementById('day5Icon');
 
-//Sunrise/Sunset
+// Sunrise/Sunset
 let sunriseData = document.getElementById('sunriseData');
-let sunsetData  = document.getElementById('sunsetData');
+let sunsetData = document.getElementById('sunsetData');
 let sunRiseSet = document.getElementById('sunRiseSet');
-//console.log(new Date(1642038614*1000));
-//console.log(new Date(1642038614*1000).getHours() +":"+ new Date(1642038614*1000).getMinutes()+" AM");
+
+// Log Examples
+// console.log(new Date(1642038614 * 1000));
+// console.log(new Date(1642038614 * 1000).getHours() + ":" + new Date(1642038614 * 1000).getMinutes() + " AM");
+
 cityName.addEventListener("keydown",function (event) {
   
  
